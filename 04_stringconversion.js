@@ -1,4 +1,4 @@
-//int this section we will add number and a string
+//in this section we will add number and a string
 // we wil get to know about the problems while adding string and a number
 
 

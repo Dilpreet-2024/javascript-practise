@@ -1,4 +1,4 @@
-//int this section we well learn about different type of comparsion operators in javascript
+//in this section we well learn about different type of comparsion operators in javascript
 
 /*
 NOTE:-
