@@ -5,8 +5,12 @@ let obj={
     mobile:4030,
     details:function(){
         console.log(`Hello my name is ${this.username}`)
+    },
+    arrowdetails:()=>{
+console.log(`${this.username} , you are welcome`)
     }
 }
+obj.arrowdetails();//arrow function will not work allow this keyword
 obj.details();
 obj.username="xyz";
 obj.details();
