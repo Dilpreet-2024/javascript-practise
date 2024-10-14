@@ -6,5 +6,7 @@ const course={
 }
 const {courseInstructor:instructor}=course
 console.log(instructor);
-const {price,coursename}=course
-console.log(price,coursename)
+const {price}=course
+console.log(price);
+const {cousrename}=course;
+console.log(cousrename);

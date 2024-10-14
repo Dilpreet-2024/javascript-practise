@@ -25,3 +25,8 @@ console.log(o);
 //to print all keys of object
 console.log(Object.keys(obj1))
 console.log(Object.values(obj3))
+
+//deleting a particular value in object
+let del={x:34,y:"gkjgkj",z:true,a:null};
+delete(del.x);
+console.log(del);
