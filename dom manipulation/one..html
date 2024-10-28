@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <div class="bg-black">
+        <h1 id="title" class="heading">DOM Learning</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li class="lists">First</li>
+            <li class="lists">Second</li>
+            <li class="lists">Third</li>
+
+        </ul>
+    </div>
+    <script>
+        //in this part we have learnt about basic selectors of dom like queryselector, id selector, class selector
+        const h=document.querySelector('.heading');
+        //first way of selecting ul's first child
+         const myul=document.querySelector('ul');
+         const fchild=myul.querySelector('li');
+//second way of accessing  ul's first child
+const lists=document.querySelectorAll('li');
+//another way of accessing lists
+const listss=document.getElementsByClassName('lists');
+
+
+
+
+    </script>
+</body>
+</html>

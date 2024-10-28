@@ -1,6 +1,6 @@
 //rest operator in functions
 function enter(...num){
-return num
+return num//will return an array of num
 }
 console.log(enter(1,2,3,4,5,6,7,8,9,10))
 
