@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="classes">
+        <li><p id="first">First</p></li>
+        <li><p id="second">Second</p></li>
+        <li><p id="third">Third</p></li>
+    </ul>
+    <a href="https://github.com/" id="anchor">Github</a>
+    <script>
+        // in this part we will learn about events in js
+        const first=document.getElementById('first');
+        first.addEventListener('click',function(e){
+            console.log(e);
+            alert("clicked inside li");
+            e.stopPropagation()
+            //type,timestamps,
+        },true)
+        const ul=document.getElementById('classes');
+        ul.addEventListener('click',()=>{
+            alert("Clicked inside ul");
+        },true)
+        const anchor=document.getElementById('anchor');
+        anchor.addEventListener('click',(e)=>{
+            alert("clicked");
+            e.preventDefault();
+        })
+    </script>
+</body>
+</html>
